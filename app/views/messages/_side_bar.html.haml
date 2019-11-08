@@ -1,0 +1,22 @@
+.side-bar
+  .header
+    %h3.header__name
+      ユーザ名
+    %ul.header__lists
+      %li.list
+        = link_to "#" do
+          = icon('fas', 'edit', class: 'icon')
+      %li.list
+        = link_to "#" do
+          = icon('fas', 'cog', class: 'icon')
+  .groups       
+    .group
+      .group__name
+        江戸川
+      .group__message
+        鹿骨最高
+    .group
+      .group__name
+        松戸
+      .group__message
+        ラーメン最高
