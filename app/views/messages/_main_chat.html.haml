@@ -1,0 +1,41 @@
+.chat
+  .header
+    .left-header
+      .left-header__title
+        group name
+      %ul.left-header__members
+        Member:
+        %li.member
+          yusuke
+        %li.member
+          mayumi
+    .right-header
+      .edit__btn
+        Edit
+  .messages
+    .message
+      .upper-message
+        .upper-message__user-name
+          ユーザー名
+        .upper-message__date
+          2019/11/04(mon)
+      .text-message
+        .text-message__content
+          プログラミングって難しいね
+    .message
+      .upper-message
+        .upper-message__user-name
+          ユーザー名
+        .upper-message__date
+          2019/11/06(wed)
+      .text-message
+        .text-message__content
+          プログラミングって楽しいね
+  .form   
+    %input.form__box{type: "text",placeholder: "type a message",value: ""}
+      %label.form__box__image
+        %i.fa.fa-image
+        %input.form__box__image__remove{type: "file"}
+    %input.form__submit{type: "submit",value:"Send"}
+
+        
