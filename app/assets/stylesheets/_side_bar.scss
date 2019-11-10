@@ -27,6 +27,7 @@
   .groups {
     box-sizing: border-box;
     background-color: #2f3e51;
+    color: #ddd;
     height: calc(100vh - 100px);
     padding: 20px 20px 0;
     overflow: scroll;
@@ -36,9 +37,11 @@
       font-size: 15px;
       font-weight: bold;
       margin-bottom: 5px;
+      color: #ddd;
       }
       &__message {
         font-size: 11px;
+        color: #ddd;
       }
     }
   }
